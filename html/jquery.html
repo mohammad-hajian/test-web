@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="title" content="محمد حاجیان">
+    <meta name="description" content="زر زر نکن">
+    <meta name="keywords" content="حاجیان،محمد،قدرت">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="persion">
+    <meta name="revisit-after" content="2 days">
+    <meta name="author" content="mohammad hajian">
+    <title>محمد حاجیان</title>
+    <link rel="stylesheet" href=../css/jquery.css>
+</head>
+
+<body>
+    <div id="div1">
+        <button class="btn" id="btn1">hide</button>
+        <button class="btn" id="btn2">show</button>
+        <button class="btn" id="btn3">toggle</button>|
+        <button class="btn" id="btn4">fade out</button>
+        <button class="btn" id="btn5">fade in</button>
+        <button class="btn" id="btn6">fade toggle</button>
+        <button class="btn" id="btn7">fade to</button>|
+        <button class="btn" id="btn8">side up</button>
+        <button class="btn" id="btn9">side down</button>
+        <br>
+        <button class="btn" id="btn10"> side toggle</button>|
+        <button class="btn" id="btn11">animation</button>|
+        <button class="btn" id="btn12">stop</button>
+    </div>
+    <hr>
+    <div id="div2">
+        <img src="../sources/ss.jpg" alt="error img" class="img1" title="mohammad">
+    </div>
+    <script src="../jquery-3.2.1.min.js"></script>
+    <!-- jQuery
+3.x snippet:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+2.x snippet:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+1.x snippet:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <script>
+        $(document).ready(function () {
+            
+                alert("سلام");
+            $("#btn1").click(function () {
+                $(".img1").hide()
+            });
+            $("#btn2").click(function () {
+                $(".img1").show()
+            });
+            $("#btn3").click(function () {
+                $(".img1").toggle(500)
+            });
+            $("#btn4").click(function () {
+                $(".img1").fadeOut()
+            });
+            $("#btn5").click(function () {
+                $(".img1").fadeIn()
+            });
+            $("#btn6").click(function () {
+                $(".img1").fadeToggle()
+            });
+            $("#btn7").click(function () {
+                $(".img1").fadeTo(1000, 0.3)
+            });
+            $("#btn8").click(function () {
+                $(".img1").slideUp()
+            });
+            $("#btn9").click(function () {
+                $(".img1").slideDown()
+            });
+            $("#btn10").click(function () {
+                $(".img1").slideToggle()
+            });
+            $("#btn11").click(function () {
+                $("#div2").animate({
+                        left: '150px'
+                    }, 1000)
+                    .animate({
+                        width: '500px'
+                    }, 1000)
+                $(".img1").animate({
+                    height: '600'
+                }, 1000).animate({
+                    left: '200px'
+                }, 2000, alerto)
+            })
+            $("#btn12").click(function () {
+                $("#div2 img").stop();
+                $("#div2").stop();
+            })
+
+            function alerto() {
+                alert("tamam");
+            }
+        })
+    </script>
+</body>
+
+</html>

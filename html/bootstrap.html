@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-rtl.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="shortcut icon" href="../sources/Icon.ico">
+
+</head>
+
+<body>
+
+    <div class="nav1">
+        <nav class="navbar navbar-expand-sm|md|lg|-xl navbar-light bg-light">
+            <a class="navbar-brand" href="#">منو بار</a>
+            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">خانه
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">لینک ها</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">منو باز شونده</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#slm">انتقال</a>
+                            <a class="dropdown-item" href="#">کار دوم</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="برای جست و جو تایپ کنید">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">جست و جو</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div class="text-right div2">
+        <div class="jumbotron">
+            <h1>
+                <a href="https://www.google.com/">
+                    محمد حاجیان
+                </a>
+            </h1>
+            <p>قالب بوت استرپ</p>
+            <a href="#" class="btn btn-banner">بیشتر
+                <i class="fa fa-send-o" aria-hidden="true"></i>
+            </a>
+        </div>
+
+    </div>
+    <div class="div3" id="slm">
+        <div>
+            <h3 class="text-center">
+                خدمات
+            </h3>
+            <p class="text-center">متن توضیحات</p>
+            <hr>
+            <div class="col-md-12">
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fa fa-dollar" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>طراحی</h3>
+                            <p> گران</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fa fa-money" aria-hidden="true"></i>
+                        </div>
+                        <div class="service-text">
+                            <h3>طراحی</h3>
+                            <p> ارزان</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../jquery-3.2.1.min.js"></script>
+    <script src="../popper.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+    <script src="../JQurery/bootstrap.js"></script>
+</body>
+
+</html>

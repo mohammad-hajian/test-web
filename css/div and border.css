@@ -1,0 +1,39 @@
+body {
+    background: green;
+}
+
+#main {
+    background: rgb(218, 233, 10);
+    height: 600px;
+}
+
+#header {
+    background-color: darksalmon;
+    border-style: double;
+    border-width: 2px;
+    border-color: rgb(14, 30, 245);
+    /* border: gold dashed 7px; یا از این روش میتوان استفاده کرد*/
+    padding: 5px;
+    margin: 30px;
+    /* margin: bala rast paiin chap; 5px 6px 7px 8px */
+    /* margin: bala & paiin chap & rast; 5px 6px */
+}
+
+#navbar {
+    background-color: rgb(127, 190, 119);
+    padding-top: 42px;
+    border: black solid 1px;
+    display: inline;
+}
+
+#content {
+    background-color: rgb(218, 233, 10);
+    display: inline;
+    border: black solid 1px;
+}
+
+#footer {
+    background-color: rgb(20, 208, 241);
+    display: block;
+    border: black solid 1px;
+}

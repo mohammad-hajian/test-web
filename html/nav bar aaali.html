@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-rtl.css">
+  
+
+    </style>
+</head>
+
+<body>
+    <div>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center" style="margin:24px 0;">
+            <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+<!-- flex-grow: 0 !important این قسمت در استایل "دیو" پایین باعث میشود نوار بالا راست چین شود;
+ justify-content-center حالا اگر در کلاس "نو" بالا این اضافه شود وسط می‌آید
+text-right و اگر در کلاس "یو‌ال" پایین، این اضافه شود در حالت گوشی که کشویی است نوشته ها راست چین میشوند -->
+            <div class="navbar-collapse collapse" style="flex-grow: 0 !important;" id="navb">
+                <ul class="navbar-nav mr-auto text-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">کار اول</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">کار دوم</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="javascript:void(0)">دکمه خاموش</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">منو باز شونده</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">کار اول</a>
+                            <a class="dropdown-item" href="#">کار دوم</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-success my-2 my-sm-0" type="button">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <script src="../jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+#id1 {
+    font-weight: bold;
+}
+
+body {
+    background-image: url(../sources/11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    /* background-position:40%  center; 
+    (اگه تصویر کوچیک بود میذاریم که کجا بره و اعداد به ترتیب ایکس و وای هستند)*/
+}

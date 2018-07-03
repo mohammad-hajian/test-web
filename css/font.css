@@ -1,0 +1,22 @@
+@font-face {
+    font-family: ii;
+    src: url("../sources/font/ii.ttf");
+    src: url("../sources/font/ii.woff");
+}
+
+@font-face {
+    font-family: bb;
+    src: url("../sources/font/bb.ttf");
+    src: url("../sources/font/bb.woff");
+}
+
+@font-face {
+    font-family: IranNastali;
+    src: url("../sources/font/IranNastali.ttf");
+}
+
+body {
+    font-family: IranNastali,ii,bb,b koodak;
+    font-size: 25px
+}
+/* b koodak از خود کامپیوتر فراخوانی شده است */

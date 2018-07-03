@@ -1,0 +1,14 @@
+.btn{
+    margin: 0px 5px;
+    border: red solid 20px;
+    background: red;
+}
+#div1{
+    background: red;
+}
+#div2{
+    position: absolute;
+}
+.img1{
+    position: relative;
+}
